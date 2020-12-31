@@ -1,0 +1,615 @@
+.main-nav {
+    position: relative;
+    float: right;
+    
+}
+.main-menu li{
+    display: inline;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; 
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:space-around;
+}
+.text1{
+    font-family: "Work Sans", Arial, sans-serif;
+font-size: 34px;
+Font-weight: 300px;
+Line-height: 44.2px;
+color: rgb(0, 179, 155);
+}
+.section__inner{
+   
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.logo-docplanner{
+    width: 200px;
+    height: 100px;
+}
+.lead_section_inner{
+    display: table-row;
+    align-items: center;
+    border: 1px solid red;
+}
+.centre{
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items:center;
+}
+.lead_section_inner h1{
+text-align: center;
+}
+.grid_fade-elements{
+
+        display: grid;
+        grid-template-columns: 20% 20% 20%; 
+        justify-content:space-around;
+}
+.services__item--marketplace{
+    background-color: #00ccb1;
+    opacity: .9;
+
+}
+
+.part2{
+background-color:#3d83df;
+opacity: .9;
+}
+.part2{
+    border-radius: 10px;
+        padding: 2em 2em 0;
+        overflow: hidden;
+        height: 345px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.services__item h1 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;}
+
+.services__item {
+        border-radius: 10px;
+        padding: 2em 2em 0;
+        overflow: hidden;
+        height: 345px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.part3{
+    background-color:#747474;
+    opacity: .9;
+    }
+.part3{
+        border-radius: 10px;
+            padding: 2em 2em 0;
+            overflow: hidden;
+            height: 345px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    }
+.style-select:hover {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        padding: 0 2em 0 0;
+        outline: 0;
+        text-transform: none;
+        text-decoration: underline;
+        cursor: pointer;
+        height: 30px;
+    border-radius: 5px;
+    color: white;
+    
+    }
+    #domain-switcher1{
+        height: 30px;
+        border-radius: 5px;
+        border-color: transparent;
+        color: white;
+        text-decoration: underline;
+        background-color: #00ccb1;
+    }
+    #domain-switcher2{
+        height: 30px;
+        border-radius: 5px;
+        border-color: transparent;
+        color: white;
+        text-decoration: underline;
+        background-color:#3d83df;
+    }
+    #domain-switcher3{
+        height: 30px;
+        border-radius: 5px;
+        border-color: transparent;
+        color: white;
+        text-decoration: underline;
+        background-color: #747474;
+    }
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.brands__logos a:hover path {
+    fill: #00bfa5;
+}
+
+
+.text2{
+font-family: "Work Sans", Arial, sans-serif;
+font-size: 34px;
+Font-weight: 300px;
+Line-height: 44.2px;
+color: rgb(0, 179, 155);
+width: 35%;
+margin: .25em 0 .35em;
+    padding-right: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brands__logos{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    width: 70%;
+    list-style: none;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    background-color:#D6F5F5;
+    margin-top: 63px;
+    height:610px;
+    background-image: url('https://www.docplanner.com/img/logo.png' );
+    background-repeat: no-repeat;
+    background-position: bottom -100px left 50px;
+    background-size :30%;
+    position: relative;
+}
+.div1{
+    width: 417px;
+    height: 150px;
+    margin-left: 187px;
+    margin-top: 80px
+}
+.titre5{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 34px;
+font-weight: 300;
+line-height: 44.2px;
+color: rgb(0, 179, 155);
+
+}
+.parag7{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: rgb(116, 116, 116)
+}
+.div2{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 485px;
+    height: 555px;
+}
+.div2-1{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 526px;
+}
+.div2-1-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 228px;
+    height: 252px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 48px;
+    margin-bottom: 10px;
+}
+.h2-1-1{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 31.2px;
+color: rgb(0, 179, 155);
+margin-left: 49px;
+margin-right: 47px;
+width: 131px;
+height: 54px;
+text-align: center;
+} 
+.p2-1-1{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.9px;
+color: rgb(116, 116, 116);
+width: 190px;
+height: 44px;
+
+}
+.div2-1-2{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 228px;
+height: 253px;
+background-color: white;
+border-radius: 10px;
+padding-top: 36px;
+margin-top: 10px;
+margin-bottom: 31px;  
+}
+.h2-1-2{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 31.2px;
+color: rgb(0, 179, 155);
+margin-left: 49px;
+margin-right: 47px;
+width: 185px;
+height: 58px;  
+text-align: center;
+}
+.p2-1-2{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.9px;
+color: rgb(116, 116, 116);
+width: 190px;
+height: 44px;
+margin-left: 58px;
+}
+.div2-2{
+display: flex;
+flex-direction: column;
+width: 230px;
+height: 526px; 
+}
+.div2-2-1{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 228px;
+height: 252px;
+background-color: white;
+border-radius: 10px;
+margin-top: 30px;
+margin-bottom: 10px;
+padding-top: 53px;
+
+}
+.h2-2-1{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 31.2px;
+color: rgb(0, 179, 155);
+width: 149px;
+height: 51px;
+text-align: center;
+}
+.p2-2-1{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.9px;
+color: rgb(116, 116, 116);  
+}
+.div2-2-2{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 228px;
+height: 252px;
+background-color: white;
+border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 59px;
+padding-top: 53px;
+padding-bottom: 20px
+}
+.h2-2-2{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 31.2px;
+color: rgb(0, 179, 155);
+width: 149px;
+height: 51px;  
+text-align: center;
+}
+.p2-2-2{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.9px;
+color: rgb(116, 116, 116); 
+}
+.partie6{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.paras6{
+width: 458px;
+height: 77px; 
+display: flex;
+flex-wrap:wrap;
+text-align: center;
+}
+.titre51{
+    color: rgb(0, 179, 155);
+    width: 350px;
+    height: 64px; 
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+}
+.pays{
+    margin-left: 186px;
+    width: 966px;
+    height: 1092px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+.war1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;   
+}
+.war{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.img-div4{
+    width: 309px;
+    height: 297px;
+    border-radius: 10px;
+   
+}
+
+.war:hover{
+    opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   cursor: pointer;   
+    }
+.pays h1
+{
+font-family: 'Roboto', Arial, sans-serif;
+font-size: 18px;
+width: 100;
+height: 14px;
+color: rgb(116, 116, 116);
+}
+.boutton1{
+    border: #8FD7FF;
+    background: #1662C6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.section9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+hr{
+    width: 100%;
+    color: gray;
+    opacity: 0.1;
+    
+}
+.div10{
+    height: 15px;
+    margin-top: 70px;
+    margin-bottom: 12px;
+}
+.p-div10{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.6px;
+color: rgb(171, 171, 171)
+}
+.Poland{
+    color: #3D83DF;
+    text-decoration: none;
+}
+.Poland:hover{
+    text-decoration: underline;
+    color: #3D83DF;
+}
+.Turkey{
+    color: #3D83DF;
+    text-decoration: none;
+}
+.Turkey:hover{
+    text-decoration: underline;
+    color: #3D83DF;
+}
+.Spain{
+    color: #3D83DF;
+    text-decoration: none;
+}
+.Spain:hover{
+    text-decoration: underline;
+    color: #3D83DF;
+}
+.Italy{
+    color: #3D83DF;
+    text-decoration: none;
+}
+.Italy:hover{
+    text-decoration: underline;
+    color: #3D83DF;
+}
+.Czech{
+    color: #3D83DF;
+    text-decoration: none;
+}
+.Czech:hover{
+    text-decoration: underline;
+    color: #3D83DF;
+}
+.Mexico{
+    color: #3D83DF;
+    text-decoration: none; 
+}
+.Mexico:hover{
+    text-decoration: underline;
+    color: #3D83DF;
+}
+.Colombia{
+    color: #3D83DF;
+    text-decoration: none; 
+}
+.Colombia:hover{
+    text-decoration: underline;
+    color: #3D83DF;  
+}
+.Brazil{
+    color: #3D83DF;
+    text-decoration: none; 
+}
+.Brazil:hover{
+    text-decoration: underline;
+    color: #3D83DF;  
+}
+.Argentina{
+    color: #3D83DF;
+    text-decoration: none; 
+}
+.Argentina:hover{
+    text-decoration: underline;
+    color: #3D83DF;  
+}
+.Chile{
+    color: #3D83DF;
+    text-decoration: none; 
+}
+.Chile:hover{
+    text-decoration: underline;
+    color: #3D83DF;  
+}
+.div11{
+    width: 854px;
+    height: 17px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.p-div11{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.6px;
+color: rgb(171, 171, 171)
+}
+.div12{
+    width: 157px;
+    height: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.p-div12{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.6px;
+color: rgb(171, 171, 171)
+}
+.sect{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.sect h1{
+    text-align: center;
+}
+.sfinal{
+    
+        border: #8FD7FF;
+        background: #1662C6;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: white;
+        width: 250px;
+        height: 32px;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 490px;
+
+    
+}
+.hfinal{
+font-family: "Work Sans", Arial, sans-serif;
+font-size: 30px;
+width: 500px;
+height: 23px;
+color: rgb(51, 51, 51);
+text-align: center;
+margin-left: 370px;
+
+}
